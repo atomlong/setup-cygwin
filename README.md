@@ -1,7 +1,7 @@
 Set up Cygwin
 =============
 
-[![Test](https://github.com/egor-tensin/setup-cygwin/actions/workflows/test.yml/badge.svg)](https://github.com/egor-tensin/setup-cygwin/actions/workflows/test.yml)
+[![Test](https://github.com/atomlong/setup-cygwin/actions/workflows/test.yml/badge.svg)](https://github.com/atomlong/setup-cygwin/actions/workflows/test.yml)
 
 This GitHub action sets up Cygwin in your workflow run.
 
@@ -11,7 +11,7 @@ This GitHub action sets up Cygwin in your workflow run.
 Use it in your workflow like this:
 
     - name: Set up Cygwin
-      uses: egor-tensin/setup-cygwin@v3
+      uses: atomlong/setup-cygwin@v3
       with:
         platform: x64
         packages: cmake python3
